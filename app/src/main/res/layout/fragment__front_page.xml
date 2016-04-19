@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_front_page"
+    tools:context=".Fragment_FrontPage"
+
+    android:background="#a92fa1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About me"
+        android:id="@+id/front_button1"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/front_button2"
+        android:layout_alignEnd="@+id/front_button3"
+        android:layout_alignStart="@+id/front_button2" />
+
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Pager"
+        android:id="@+id/front_button2"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/front_button3"
+        android:layout_alignStart="@+id/front_button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Master Detail Flow"
+        android:id="@+id/front_button3"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_below="@+id/front_button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>
